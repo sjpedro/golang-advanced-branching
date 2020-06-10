@@ -20,7 +20,7 @@ type truck struct {
 	typeVehicle   string
 }
 
-type truck struct {
+type bike struct {
 	model string
 	make string
 }
@@ -44,6 +44,7 @@ type feedbackResult struct {
 var vehicleResult map[string]feedbackResult
 
 var inventory []Vehicle
+
 type rating float32
 
 const (
