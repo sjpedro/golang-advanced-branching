@@ -4,7 +4,7 @@ import (
 
 )
 
-type Vehicle interface{
+type vehicle interface{
 
 }
 
